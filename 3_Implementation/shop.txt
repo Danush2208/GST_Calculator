@@ -1,0 +1,43 @@
+DENTAL CLINIC                     
+PHARMACEUTICAL DRUG MANUFACTURERS 
+GENERAL PHYSICIAN                 
+CARDIOLOGIST                     
+GYNAECOLOGIST                     
+OPTHAMALOGIST                     
+ORTHODONTIST                     
+CHILD SPEACIALIST               
+WHOLESALE SHOPS                  
+RETAIL SHOP                      
+FANCY SHOPS                       
+STATIONARY SHOPS                  
+XEROX SHOPS                      
+INTERNET CAFE                    
+COFFEE/ICE-CREAM SHOPS            
+RESTAURANTS                       
+FOOD OUTLETS                      
+LODGES AND INNS                   
+FRUITS AND VEGETABLES SHOP        
+ALL PURPOSE STORES                
+TWO WHEELER SHOWROOMS            
+FOUR WHEELER SHOWROOMS           
+HEAVY VEHICLE SHOWROOMS          
+BICYCLE SHOWROOMS                
+PRIVATE HOSPITAL DRUG STORES      
+JWELLERY SHOPS                    
+TEXTILE SHOPS                     
+MEAT AND FISH STALLS             
+TAILORING SHOP                   
+DRY CLEANERS                      
+CROCKERY ITEMS SHOP               
+TELEVISION SHOP                   
+AIR CONDITIONERS SHOP             
+GENERAL HOME APPLIANCES STORE    
+BOOK STORES                       
+INDUSRTIAL MATERIAL SUPPLIERS     
+LEATHER PRODUCTS SELLERS         
+CAKES AND CONFECTIONARIES         
+MOBILE SHOWROOMS                  
+MUSICAL INSRTRUMENTS STORE       
+
+
+
