@@ -38,16 +38,12 @@
 # Detail requirements
 ## High Level Requirements:
 
-ID         | Description                                 | Status
----------- | ------------------------------------------- | -------
-    1      |       Finding the GST of the product        |
----------- | ------------------------------------------- | -------
-    2      |      Checking the GST of your product       |
----------- | ------------------------------------------- | -------
-    3      |           GST License checker               |
----------- | ------------------------------------------- | -------
-    4      |             Close the program               |
----------- | ------------------------------------------- | -------
+ID    | Description                                 | Status
+------| --------------------------------------------| -------
+1     |       Finding the GST of the product        |
+2     |      Checking the GST of your product       |
+3     |           GST License checker               |
+4     |             Close the program               |
 
 
 ##  Low level Requirements:
