@@ -1,6 +1,9 @@
 # Requirements
 ## Introduction
-
+GST (Goods and Services tax) was introduced in the year 2018 for all the condiments 
+Strating from 0% to 28% for various products 
+People found difficulties in knowing the GST percentage for each and every product
+This program lets us to be more aware about GST
 
 ## Research
 
@@ -9,6 +12,7 @@
 
 
 ## Defining Our System
+
     
 ## SWOT ANALYSIS
 
