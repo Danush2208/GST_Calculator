@@ -52,11 +52,9 @@ ID    | Description                                          | Status
 ----- | ---------------------------------------------------- | -------
 1.1   | Product name (all lower case)                        |
 1.2   | Files containing GST percentages                     |
-      |                                                      |
 2.1   | Product name (all lower case)                        |
 2.2   | GST charged by the shopkeeper                        |
 2.3   | Files containing GST percentages                     |
-      |                                                      |
 3.1   | GST number of the shopkeeper(16 char alphanumerical) |
 3.2   | Shop name                                            |
 
