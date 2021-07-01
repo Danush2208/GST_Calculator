@@ -32,24 +32,25 @@ NEW:system("CLS");
     scanf("%s",pdt);
     gst_percent=product_zero(pdt);
     if(gst_percent==0){
-      printf("%d percentage",gst_percent);
+      printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
     gst_percent=product_five(pdt);
     if(gst_percent==5){
-      printf("%d percentage",gst_percent);
+      printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
     gst_percent=product_twelve(pdt);
     if(gst_percent==12){
-      printf("%d percentage",gst_percent);
+      printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
     gst_percent=product_eighteen(pdt);
     if(gst_percent==18){
-      printf("%d percentage",gst_percent);
+      printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
     gst_percent=product_twentyeight(pdt);
     if(gst_percent==28){
-      printf("%d percentage",gst_percent);
+      printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
+    printf("\n Press a key to go to main menu");
     printf("%c",getch());
     goto NEW;
   }
@@ -103,6 +104,7 @@ NEW:system("CLS");
     if(percent_check==1){
       printf("You have been charged inccorect GST");
     }
+    printf("\n Press a key to go to main menu");
     printf("%c",getch());
     goto NEW;
   }
@@ -112,8 +114,12 @@ NEW:system("CLS");
     scanf("%s",lic);
     license_check=license_cal(lic);
     if(license_check==0){
-      printf("The GST number is perfect ");
+      printf("The GST license number is perfect ");
     }
+    else{
+      printf("You have entered a wrong GST license number");
+    }
+    printf("\n\n Press a key to go to main menu");
     printf("%c",getch());
     goto NEW;
   }
