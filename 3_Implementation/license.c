@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * @brief File for License of the GST numbers
+ * 
+ * @param lic 
+ * @return int 
+ */
+
 int license_cal(char lic[]){
   FILE *fp=NULL;
     char dum_lic[20];

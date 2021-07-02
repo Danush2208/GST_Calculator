@@ -1,31 +1,31 @@
-Condensed milk
-Malt
-Portland cement			 
-Aluminous	
-LPG Home			 
-Ore				 
-Organic chemical
-Paint				
-Varnishes
-Shaving lotion		
-Soap liquid	
-Lubricants			 
-Modelling paste
-Fireworks		
-Lighter				
-Paint remover	
-Cosmatics
-Suitcase			 
-Binocular			 
-Trunk	
-Plywood	
-Head band
-Wig	
-Panel board		
-Building stone		
-Chimney pots			 
-Ceramic pipes	
-Cast glass
+condensed milk
+malt
+portland cement			 
+aluminous	
+lpg home			 
+ore				 
+organic chemical
+paint				
+varnishes
+shaving lotion		
+soap liquid	
+lubricants			 
+modelling paste
+fireworks		
+lighter				
+paint remover	
+cosmatics
+suitcase			 
+binocular			 
+trunk	
+plywood	
+head band
+wig	
+panel board		
+building stone		
+chimney pots			 
+ceramic pipes	
+cast glass
 car(above 10l)	
 primary cells
 trimmers

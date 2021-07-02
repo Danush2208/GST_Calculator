@@ -65,6 +65,7 @@ NEW:system("CLS");
     if(gst_percent==0 && gst_charged==0){
       printf("You have been charged with the rite percentage of GST");
       percent_check=0;
+      goto END;
     }
     else{
       percent_check=1;
@@ -73,6 +74,7 @@ NEW:system("CLS");
     if(gst_percent==5 && gst_charged==5){
       printf("You have been charged with the rite percentage of GST");
       percent_check=0;
+      goto END;
     }
     else{
       percent_check=1;
@@ -81,6 +83,7 @@ NEW:system("CLS");
     if(gst_percent==12 && gst_charged==12){
       printf("You have been charged with the rite percentage of GST");
       percent_check=0;
+      goto END;
     }
     else{
       percent_check=1;
@@ -89,6 +92,7 @@ NEW:system("CLS");
     if(gst_percent==18 && gst_charged==18){
       printf("You have been charged with the rite percentage of GST");
       percent_check=0;
+      goto END;
     }
     else{
       percent_check=1;
@@ -97,6 +101,7 @@ NEW:system("CLS");
     if(gst_percent==28 && gst_charged==28){
       printf("You have been charged with the rite percentage of GST");
       percent_check=0;
+      goto END;
     } 
     else{
       percent_check=1;
@@ -104,7 +109,7 @@ NEW:system("CLS");
     if(percent_check==1){
       printf("You have been charged inccorect GST");
     }
-    printf("\n Press a key to go to main menu");
+  END:printf("\n Press a key to go to main menu");
     printf("%c",getch());
     goto NEW;
   }

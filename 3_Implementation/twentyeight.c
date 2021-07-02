@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * @brief File for 28% GST
+ * 
+ * @param pdt 
+ * @return int 
+ */
+
 int product_twentyeight(char pdt[]){
   FILE *fp=NULL;
     char dum_pdt[20];

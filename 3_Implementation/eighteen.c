@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+/**
+ * @brief File for 18% GSST
+ * 
+ * @param pdt 
+ * @return int 
+ */
 
 int product_eighteen(char pdt[]){
   FILE *fp=NULL;

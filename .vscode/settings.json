@@ -2,5 +2,7 @@
   "C_Cpp_Runner.cCompilerPath": "C:\\MinGW\\bin\\gcc.exe",
   "C_Cpp_Runner.cppCompilerPath": "C:\\MinGW\\bin\\g++.exe",
   "C_Cpp_Runner.debuggerPath": "C:\\MinGW\\bin\\gdb.exe",
-  "C_Cpp_Runner.makePath": "C:\\MinGW\\bin\\make.exe"
+  "C_Cpp_Runner.makePath": "C:\\MinGW\\bin\\make.exe",
+  "C_Cpp_Runner.includePaths": "C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include/ssp",
+  "C_Cpp.errorSquiggles": "Disabled"
 }

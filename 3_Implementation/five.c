@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+/**
+ * @brief File for 5% GST
+ * 
+ * @param pdt 
+ * @return int 
+ */
 
 int product_five(char pdt[]){
   FILE *fp=NULL;

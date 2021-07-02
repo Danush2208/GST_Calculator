@@ -3,7 +3,8 @@
     {
       "name": "windows-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "C:/MinGW/lib/gcc/x86_64-w64-mingw32/9.2.0/include/ssp"
       ],
       "compilerPath": "C:\\MinGW\\bin\\gcc.exe",
       "cStandard": "${default}",

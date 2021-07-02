@@ -1,5 +1,11 @@
 #include <stdio.h>
 #include <string.h>
+/**
+ * @brief File for 0% GST
+ * 
+ * @param pdt 
+ * @return int 
+ */
 
 int product_zero(char pdt[]){
   FILE *fp=NULL;
