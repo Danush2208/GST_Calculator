@@ -5,39 +5,7 @@ Strating from 0% to 28% for various products
 People found difficulties in knowing the GST percentage for each and every product
 This program lets us to be more aware about GST
 
-## Research
 
-
-## Cost and Features and Timeline
-
-
-## Defining Our System
-
-    
-## SWOT ANALYSIS
-
-
-# 4W&#39;s and 1&#39;H
-
-## Who:
-
-**TBD**
-
-## What:
-
-**TBD**
-
-## When:
-
-**TBD**
-
-## Where:
-
-**TBD**
-
-## How:
-
-**TBD**
 
 # Detail requirements
 ## High Level Requirements:
