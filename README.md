@@ -3,9 +3,9 @@ Designing a GST calculator
 
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/91039b15d57f4458bcce70ac0a3cce46)](https://www.codacy.com/gh/Danush2208/GST_Calculator/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Danush2208/GST_Calculator&amp;utm_campaign=Badge_Grade)
 
-[![code_grade] (https://www.code-inspector.com/project/24714/status/svg)
+[![code grade] (https://www.code-inspector.com/project/24714/status/svg)
 
-[![code_score] (https://www.code-inspector.com/project/24714/score/svg)
+[![code score] (https://www.code-inspector.com/project/24714/score/svg)
 
 ## Folder Structure
 Folder             | Description
