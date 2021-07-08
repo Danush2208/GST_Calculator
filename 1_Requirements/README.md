@@ -6,18 +6,24 @@ People found difficulties in knowing the GST percentage for each and every produ
 This program lets us to be more aware about GST
 
 ## SWOT ANALYSIS
-
+![SWOT ANALYSIS](https://github.com/Danush2208/GST_Calculator/blob/9e22a2b61306e1c02de1b4df2a624c5eb08e7a37/1_Requirements/swot-analysis-blogging.png)
 
 # 4W&#39;s and 1&#39;H
 
 ## Who:
-* Children and young inquisitive teenagers who enjoy challenging themselves in miscellaneous domains.
+* Every Indian Citizen who is not aware of GST 
 
 ## What:
-* The quiz aims to not only test. but also improve the user's knowledge, through various questions of varying difficulty.
+* Acts as an interface between the people and the shopkeepers to avoid GST fraud
  
 ## Where:
-* This game can be played anywhere and is supported by most of the platforms without the use of internet.
+* Since this is a control of database it can be used in all platforms only reqirement is to update the database whenever there is a change issued by the government
+
+## When:
+* Gst came to implementation in the year 2018 
+
+## How:
+* When the user tries to find the GST of any particular product the data is fetched from the existing database
 
 # Detail requirements
 ## High Level Requirements:
