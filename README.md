@@ -17,7 +17,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`303454` | S Danush Venkatesh  | |     |  | |     
+`303454` | S Danush Venkatesh  | 3 |     |  | |     
 
 | Feature Id | Feature |
 | -----------|---------|
