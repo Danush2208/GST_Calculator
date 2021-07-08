@@ -18,13 +18,8 @@
 void main(){
   char pdt[20],lic[20];
   int option,gst_percent,gst_charged,license_check,percent_check;
-NEW:system("cls");
-  printf("\n\t\t\t\t 1.DISPLAY YOUR PRODUCT'S GST");
-  printf("\n\t\t\t\t 2.CHECK GST OF YOUR PRODUCT");
-  printf("\n\t\t\t\t 3.GST LISCENCE CHECKER");
-  printf("\n\t\t\t\t 4.EXIT");
-  printf("\n\n\n\t\t CHOOSE ANYONE OPTION(1-4):");
-  
+NEW:
+  menu_display();
   scanf("%d",&option);
   if(option==1){
     system("cls");

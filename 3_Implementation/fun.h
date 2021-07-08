@@ -6,4 +6,5 @@ int product_twelve(char pdt[]);
 int product_eighteen(char pdt[]);
 int product_twentyeight(char pdt[]);
 int license_cal(char lic[]);
+void menu_display();
 #endif
