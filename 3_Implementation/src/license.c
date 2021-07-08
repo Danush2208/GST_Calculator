@@ -10,7 +10,7 @@
 
 int license_cal(char lic[]){
   FILE *fp=NULL;
-    fp=fopen("E:\\LTTS\\MINI_PROJECT\\GST_Calculator\\3_Implementation\\text_files\\license.txt","r");
+    fp=fopen("../3_Implementation/text_files/license.txt","r");
     if(fp){ 
     while(!feof(fp))
         {

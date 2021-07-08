@@ -9,7 +9,7 @@
 
 int product_zero(char pdt[]){
   FILE *fp=NULL;
-    fp=fopen("E:\\LTTS\\MINI_PROJECT\\GST_Calculator\\3_Implementation\\text_files\\zero.txt","r");
+    fp=fopen("../3_Implementation/text_files/zero.txt","r");
     if(fp){ 
     while(!feof(fp))
         {
