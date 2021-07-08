@@ -5,7 +5,19 @@ Strating from 0% to 28% for various products
 People found difficulties in knowing the GST percentage for each and every product
 This program lets us to be more aware about GST
 
+## SWOT ANALYSIS
 
+
+# 4W&#39;s and 1&#39;H
+
+## Who:
+* Children and young inquisitive teenagers who enjoy challenging themselves in miscellaneous domains.
+
+## What:
+* The quiz aims to not only test. but also improve the user's knowledge, through various questions of varying difficulty.
+ 
+## Where:
+* This game can be played anywhere and is supported by most of the platforms without the use of internet.
 
 # Detail requirements
 ## High Level Requirements:

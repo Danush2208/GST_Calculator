@@ -1,7 +1,7 @@
 # Target name : dependencies
 #<TAB> command 
 
-SRC = start.c src/zero.c src/five.c src/twelve.c src/eighteen.c src/twentyeight.c src/license.c src/menu.c
+SRC = main.c src/zero.c src/five.c src/twelve.c src/eighteen.c src/twentyeight.c src/license.c src/menu.c 
 INC = inc
 
 target : $(SRC) $(INC)
