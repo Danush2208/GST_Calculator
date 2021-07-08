@@ -9,7 +9,7 @@
  */
 int product_twentyeight(char pdt[]){
   FILE *fp=NULL;
-    fp=fopen("twentyeight.txt","r");
+    fp=fopen("E:\\LTTS\\MINI_PROJECT\\GST_Calculator\\3_Implementation\\text_files\\twentyeight.txt","r");
     if(fp){ 
     while(!feof(fp))
         {

@@ -10,7 +10,7 @@
 
 int product_twelve(char pdt[]){
   FILE *fp=NULL;
-    fp=fopen("twelve.txt","r");
+    fp=fopen("E:\\LTTS\\MINI_PROJECT\\GST_Calculator\\3_Implementation\\text_files\\twelve.txt","r");
     if(fp){ 
     while(!feof(fp))
         {
