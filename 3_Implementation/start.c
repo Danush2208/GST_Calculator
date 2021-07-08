@@ -22,7 +22,7 @@ NEW:
   menu_display();
   scanf("%d",&option);
   if(option==1){
-    system("cls");
+    system("@cls||clear");
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
     gst_percent=product_zero(pdt);
@@ -50,7 +50,7 @@ NEW:
     goto NEW;
   }
   if(option==2){
-    system("cls");
+    system("@cls||clear");
     percent_check=0;
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
@@ -109,7 +109,7 @@ NEW:
     goto NEW;
   }
   if(option==3){
-    system("cls");
+    system("@cls||clear");
     printf("Enter the license number of the shop:");
     scanf("%s",lic);
     license_check=license_cal(lic);
@@ -124,5 +124,5 @@ NEW:
     goto NEW;
   }
   if(option==4)
-  system("cls");
+  system("@cls||clear");
 }
