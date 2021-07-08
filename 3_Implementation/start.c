@@ -18,7 +18,7 @@
 void main(){
   char pdt[20],lic[20];
   int option,gst_percent,gst_charged,license_check,percent_check;
-NEW:system("CLS");
+NEW:system("cls");
   printf("\n\t\t\t\t 1.DISPLAY YOUR PRODUCT'S GST");
   printf("\n\t\t\t\t 2.CHECK GST OF YOUR PRODUCT");
   printf("\n\t\t\t\t 3.GST LISCENCE CHECKER");
@@ -27,7 +27,7 @@ NEW:system("CLS");
   
   scanf("%d",&option);
   if(option==1){
-    system("CLS");
+    system("cls");
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
     gst_percent=product_zero(pdt);
@@ -55,7 +55,7 @@ NEW:system("CLS");
     goto NEW;
   }
   if(option==2){
-    system("CLS");
+    system("cls");
     percent_check=0;
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
@@ -114,7 +114,7 @@ NEW:system("CLS");
     goto NEW;
   }
   if(option==3){
-    system("CLS");
+    system("cls");
     printf("Enter the license number of the shop:");
     scanf("%s",lic);
     license_check=license_cal(lic);
@@ -129,5 +129,5 @@ NEW:system("CLS");
     goto NEW;
   }
   if(option==4)
-  system("CLS");
+  system("cls");
 }

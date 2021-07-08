@@ -9,13 +9,12 @@
 
 int product_eighteen(char pdt[]){
   FILE *fp=NULL;
-    char dum_pdt[20];
-    int len;
-    fp=fopen("eighteen.txt","r");
-     fseek(fp,0,SEEK_SET); 
+    fp=fopen("eighteen.txt","r"); 
     if(fp){ 
     while(!feof(fp))
         {
+          char dum_pdt[20];
+          int len;
           len=strlen(pdt)+1;
           fgets(dum_pdt,len,fp);
            if(strcmp(dum_pdt,pdt)==0){
