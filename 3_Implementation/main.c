@@ -15,7 +15,7 @@
 #include "fun.h"
 
 void main(){
-  char pdt[20],lic[20],dum_key;
+  char pdt[20],lic[20],dum_key,dum_key_1;
   int option,gst_percent,gst_charged,license_check,percent_check;
 NEW:
   menu_display();
@@ -44,6 +44,7 @@ NEW:
     if(gst_percent==28){
       printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
+    scanf("%c",&dum_key_1);
     printf("\n Press a key to go to main menu");
     scanf("%c",&dum_key);
     goto NEW;
@@ -103,7 +104,8 @@ NEW:
     if(percent_check==1){
       printf("You have been charged inccorect GST");
     }
-  END:printf("\n Press a key to go to main menu");
+  END:scanf("%c",&dum_key_1);
+  printf("\n Press a key to go to main menu");
     scanf("%c",&dum_key);
     goto NEW;
   }
@@ -118,7 +120,8 @@ NEW:
     else{
       printf("You have entered a wrong GST license number");
     }
-    printf("\n\n Press a key to go to main menu");
+    scanf("%c",&dum_key_1);
+    printf("\n Press a key to go to main menu");
     scanf("%c",&dum_key);
     goto NEW;
   }
