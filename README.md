@@ -5,7 +5,6 @@ Designing a GST calculator
 
 [![Code Quality - Static Code - Cppcheck](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml)
 
-![Code Score](https://www.code-inspector.com/project/24714/score/svg)
 ## Folder Structure
 Folder             | Description
 ------------------ | -----------------------------------------
