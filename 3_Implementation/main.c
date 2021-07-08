@@ -12,11 +12,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <conio.h>
 #include "fun.h"
 
 void main(){
-  char pdt[20],lic[20];
+  char pdt[20],lic[20],dum_key;
   int option,gst_percent,gst_charged,license_check,percent_check;
 NEW:
   menu_display();
@@ -46,7 +45,7 @@ NEW:
       printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
     printf("\n Press a key to go to main menu");
-    printf("%c",getch());
+    scanf("%c",&dum_key);
     goto NEW;
   }
   if(option==2){
@@ -105,7 +104,7 @@ NEW:
       printf("You have been charged inccorect GST");
     }
   END:printf("\n Press a key to go to main menu");
-    printf("%c",getch());
+    scanf("%c",&dum_key);
     goto NEW;
   }
   if(option==3){
@@ -120,7 +119,7 @@ NEW:
       printf("You have entered a wrong GST license number");
     }
     printf("\n\n Press a key to go to main menu");
-    printf("%c",getch());
+    scanf("%c",&dum_key);
     goto NEW;
   }
   if(option==4)
