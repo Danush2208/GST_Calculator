@@ -15,7 +15,7 @@
 #include <conio.h>
 #include "fun.h"
 
-int main(){
+void main(){
   char pdt[20],lic[20];
   int option,gst_percent,gst_charged,license_check,percent_check;
 NEW:system("CLS");
@@ -130,5 +130,4 @@ NEW:system("CLS");
   }
   if(option==4)
   system("CLS");
-  return 0;
 }
