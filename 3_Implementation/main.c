@@ -17,9 +17,11 @@
 void main(){
   char pdt[20],lic[20],dum_key,dum_key_1;
   int option,gst_percent,gst_charged,license_check,percent_check;
+  
 NEW:
   menu_display();
   scanf("%d",&option);
+  
   if(option==1){
     system("@cls||clear");
     printf("Enter the product you want to know the GST for:");
@@ -49,6 +51,7 @@ NEW:
     scanf("%c",&dum_key);
     goto NEW;
   }
+  
   if(option==2){
     system("@cls||clear");
     percent_check=0;
@@ -109,6 +112,7 @@ NEW:
     scanf("%c",&dum_key);
     goto NEW;
   }
+  
   if(option==3){
     system("@cls||clear");
     printf("Enter the license number of the shop:");
@@ -125,6 +129,7 @@ NEW:
     scanf("%c",&dum_key);
     goto NEW;
   }
+  
   if(option==4)
   system("@cls||clear");
 }
