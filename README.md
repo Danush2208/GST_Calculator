@@ -1,8 +1,8 @@
 # SDLC Activity based learning
 
-Build | Code Quality | Unity | [Git Inspector](using github.io option)
-------|----------|-------|--------------
-[![C/C++ CI - Build Status](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp_check.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp_check.yml) |  [![Code Quality - Static Code - Cppcheck](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml) <br> [![Code grade](https://www.code-inspector.com/project/24797/status/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) <br> [![Code Score](https://www.code-inspector.com/project/24797/score/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) | |[![Contribution Check - Git Inspector](https://github.com/Danush2208/GST_Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/gitinspector.yml)
+Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Coverage
+------|----------|-------|--------------|--------|
+[![C/C++ CI - Build Status](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp.yml) |  [![Code Quality - Static Code - Cppcheck](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml) <br> [![Code grade](https://www.code-inspector.com/project/24797/status/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) <br> [![Code Score](https://www.code-inspector.com/project/24797/score/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) | |[![Contribution Check - Git Inspector](https://github.com/Danush2208/GST_Calculator/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/gitinspector.yml) | [![CI-Coverage](https://github.com/Danush2208/GST_Calculator/actions/workflows/gcov.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/gcov.yml)
 
 ## Folder Structure
 Folder             | Description
@@ -17,7 +17,7 @@ Folder             | Description
 
 SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Cases|Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`303454` | S Danush Venkatesh  | 3 |     |  | |     
+`303454` | S Danush Venkatesh  |  3|     |  | |     
 
 | Feature Id | Feature |
 | -----------|---------|
