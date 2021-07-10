@@ -5,10 +5,10 @@ SRC = main.c src/zero.c src/five.c src/twelve.c src/eighteen.c src/twentyeight.c
 INC = inc
 
 target : $(SRC) $(INC)
-	gcc $(SRC) -I$(INC) -o new.exe
+	gcc $(SRC) -I$(INC) -o new.out
 
 run : target
-	.\new.exe 
+	.\new.out
 
 clean :
-	rm new.exe
+	rm new.out
