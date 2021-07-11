@@ -53,7 +53,7 @@ coverageCheck:$(BUILD)
 	./$(TEST_OUTPUT)
 
 clean:
-	del -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
+	rm -rf $(BUILD) $(DOCUMENTATION_OUTPUT)
 
 $(BUILD):
 	mkdir build
