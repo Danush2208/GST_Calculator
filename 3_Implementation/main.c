@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "GST_Calculator.h"
+#include <GST_Calculator.h>
 
 void main(){
   char pdt[20],lic[20],dum_key,dum_key_1;
