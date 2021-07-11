@@ -5,26 +5,40 @@ TEST_PROJ_NAME = GST_Calculator
 BUILD_DIR = Build
 CFLAGS = -Wall -g
 
-#All the Source File
 SRC = main.c\
-      src/*.c
+src/zero.c\
+src/five.c\
+src/twelve.c\
+src/eighteen.c\
+src/twentyeight.c\
+src/license.c\
+src/menu.c
 
-#Include folder path
-INC = inc
+TEST_SRC = src/zero.c\
+src/five.c\
+src/twelve.c\
+src/eighteen.c\
+src/twentyeight.c\
+src/license.c\
+src/menu.c\
+test/test_calculator_operations.c\
+unity/unity.c\
+
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+
+INC	= -Iinc\
+-Iunity\
 
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
-INC_TEST = -Iinc -Iunity
+
 #Library Inlcudes
 INCLUDE_LIBS = 
 
 OUTPUT = $(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
 
-TEST_SRC = src/*c\
-test/test_calculator_operations.c\
-unity/unity.c\
 
 TEST_OUTPUT = $(BUILD_DIR)/Test_$(TEST_PROJ_NAME).$(EXEC)
 
@@ -68,5 +82,5 @@ coverageCheck:$(BUILD_DIR)
 
 #test the testcases 
 test:$(BUILD_DIR)
-	gcc $(TEST_SRC) $(INC_TEST) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
 	./$(TEST_OUTPUT)
