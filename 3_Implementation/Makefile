@@ -23,13 +23,13 @@ src/menu.c\
 test/test_calculator_operations.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).exe
+TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
 INC	= -Iinc\
 -Iunity\
 
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).exe
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
 # Document files
 #DOCUMENTATION_OUTPUT = documentation/html
@@ -39,10 +39,10 @@ $(PROJECT_NAME):all
 .PHONY: run clean test doc all
 
 all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).exe
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 run:$(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).exe
+	./$(PROJECT_OUTPUT).out
 
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT)
