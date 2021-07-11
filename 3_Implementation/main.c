@@ -14,7 +14,7 @@
 #include <string.h>
 #include "GST_Calculator.h"
 
-void main(){
+int main(){
   char pdt[20],lic[20],dum_key,dum_key_1;
   int option,gst_percent,gst_charged,license_check,percent_check;
   
@@ -132,4 +132,6 @@ NEW:
   
   if(option==4)
   system("@cls||clear");
+
+  return 0;
 }

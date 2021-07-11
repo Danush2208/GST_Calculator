@@ -8,8 +8,8 @@
  * @copyright Copyright (c) 2021
  * 
  */
-#ifndef __FUN_H
-#define __FUN_H
+#ifndef __GST_CALCULATOR_H
+#define ___GST_CALCULATOR_H
 int product_zero(char pdt[]);
 int product_five(char pdt[]);
 int product_twelve(char pdt[]);
