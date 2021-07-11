@@ -5,40 +5,23 @@ TEST_PROJ_NAME = GST_Calculator
 BUILD_DIR = Build
 CFLAGS = -Wall -g
 
+#All the Source File
 SRC = main.c\
-src/zero.c\
-src/five.c\
-src/twelve.c\
-src/eighteen.c\
-src/twentyeight.c\
-src/license.c\
-src/menu.c
-
-TEST_SRC = src/zero.c\
-src/five.c\
-src/twelve.c\
-src/eighteen.c\
-src/twentyeight.c\
-src/license.c\
-src/menu.c\
-test/test_calculator_operations.c\
-unity/unity.c\
-
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
-
-INC	= -Iinc\
--Iunity\
+      src/*.c
 
 
 $(BUILD_DIR):
 	mkdir $(BUILD_DIR)
 
-
+INC = -Iinc -Iunity
 #Library Inlcudes
 INCLUDE_LIBS = 
 
 OUTPUT = $(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC)
 
+TEST_SRC = src/*c\
+test/test_calculator_operations.c\
+unity/unity.c\
 
 TEST_OUTPUT = $(BUILD_DIR)/Test_$(TEST_PROJ_NAME).$(EXEC)
 
@@ -68,7 +51,7 @@ run : all
 
 # Remove all the built files, invoke by `make clean
 clean :
-	$(RM) $(call FixPath,$(BUILD_DIR)/*)
+	#$(RM) $(call FixPath,$(BUILD_DIR)/*)
     #del all.exe
 
 #valgrind only works in wsl 

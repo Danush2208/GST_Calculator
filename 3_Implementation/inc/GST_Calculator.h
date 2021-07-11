@@ -1,3 +1,13 @@
+/**
+ * @file GST_Calculator.h
+ * @author S DANUSH VENKATESH (danushvenkat25@gmail.com)
+ * @brief 
+ * @version 0.1
+ * @date 2021-07-11
+ * 
+ * @copyright Copyright (c) 2021
+ * 
+ */
 #ifndef __FUN_H
 #define __FUN_H
 int product_zero(char pdt[]);
