@@ -27,59 +27,35 @@ int main()
 
 void test_zero(void) 
 {
-  char test_case_one[]="milk";
-  char test_case_two[]="meat of goat";
-  char test_case_three[]="clay lamp";
+  char test_case_1[5]="milk";
   TEST_ASSERT_EQUAL(0, product_zero(test_case_one));
-  TEST_ASSERT_EQUAL(0, product_zero(test_case_two));
-  TEST_ASSERT_EQUAL(0, product_zero(test_case_three));
 }
 
 void test_five(void) 
 {
-  char test_case_one[]="cloves";
-  char test_case_two[]="marble";
-  char test_case_three[]="natural rubber";
+  char test_case_2[7]="cloves";
   TEST_ASSERT_EQUAL(5, product_five(test_case_one));
-  TEST_ASSERT_EQUAL(5, product_five(test_case_two));
-  TEST_ASSERT_EQUAL(5, product_five(test_case_three));
 }
 
 void test_twelve(void) 
 {
-  char test_case_one[]="butter";
-  char test_case_two[]="inorganic fertilizer";
-  char test_case_three[]="sports gloves";
+  char test_case_3[7]="butter";
   TEST_ASSERT_EQUAL(12, product_twelve(test_case_one));
-  TEST_ASSERT_EQUAL(12, product_twelve(test_case_two));
-  TEST_ASSERT_EQUAL(12, product_twelve(test_case_three));
 }
 
 void test_eighteen(void) {
-  char test_case_one[]="watches";
-  char test_case_two[]="musical instruments";
-  char test_case_three[]="mobile(below 20k)";
+  char test_case_4[8]="watches";
   TEST_ASSERT_EQUAL(18, product_eighteen(test_case_one));
-  TEST_ASSERT_EQUAL(18, product_eighteen(test_case_two));
-  TEST_ASSERT_EQUAL(18, product_eighteen(test_case_three));
 }
 
 void test_twentyeight(void)
 {
-  char test_case_one[]="malt";
-  char test_case_two[]="modelling paste";
-  char test_case_three[]="cast glass";
+  char test_case_5[5]="malt";
   TEST_ASSERT_EQUAL(28, product_twentyeight(test_case_one));
-  TEST_ASSERT_EQUAL(28, product_twentyeight(test_case_two));
-  TEST_ASSERT_EQUAL(28, product_twentyeight(test_case_three));
 }
 
 void test_license(void)
 {
-  char test_case_one[]="29ADMPK2640M1Z4";
-  char test_case_two[]="29AAACO8313M1Z3";
-  char test_case_three[]="29DGQPS8112G1ZT";
+  char test_case_6[16]="29ADMPK2640M1Z4";
   TEST_ASSERT_EQUAL(0, license_cal(test_case_one));
-  TEST_ASSERT_EQUAL(0, license_cal(test_case_two));
-  TEST_ASSERT_EQUAL(0, license_cal(test_case_three));
 }
