@@ -32,24 +32,24 @@ void test_zero(void)
 
 void test_five(void) 
 {
-  TEST_ASSERT_EQUAL(0, product_zero((char*)"milk")));
+  TEST_ASSERT_EQUAL(0, product_zero((char*)"milk"));
 }
 
 void test_twelve(void) 
 {
-  TEST_ASSERT_EQUAL(12, product_twelve((char*)"butter")));
+  TEST_ASSERT_EQUAL(12, product_twelve((char*)"butter"));
 }
 
 void test_eighteen(void) {
-  TEST_ASSERT_EQUAL(18, product_eighteen((char*)"watches")));
+  TEST_ASSERT_EQUAL(18, product_eighteen((char*)"watches"));
 }
 
 void test_twentyeight(void)
 {
-  TEST_ASSERT_EQUAL(28, product_twentyeight((char*)"malt")));
+  TEST_ASSERT_EQUAL(28, product_twentyeight((char*)"malt"));
 }
 
 void test_license(void)
 {
-  TEST_ASSERT_EQUAL(0, license_cal((char*)"29ADMPK2640M1Z4")));
+  TEST_ASSERT_EQUAL(0, license_cal((char*)"29ADMPK2640M1Z4"));
 }
