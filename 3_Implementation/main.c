@@ -13,17 +13,17 @@
 #include "fun.h"
 
 int main(){
-  char pdt[20],lic[20],dum_key,dum_key_1;
+  char* pdt="milk",lic[20],dum_key,dum_key_1;
   int option,gst_percent,gst_charged,license_check,percent_check;
   
 NEW:
   menu_display();
-  scanf("%d",&option);
-  
+  //scanf("%d",&option);
+  option=1;
   if(option==1){
     system("cls");
-    printf("Enter the product you want to know the GST for:");
-    scanf("%s",pdt);
+    printf("Enter the product you want to know the GST for: %s",pdt);
+    //scanf("%s",pdt);
     gst_percent=product_zero(pdt);
     if(gst_percent==0){
       printf("\nThe GST for the product is %d %% \n",gst_percent);
@@ -44,10 +44,10 @@ NEW:
     if(gst_percent==28){
       printf("\nThe GST for the product is %d %% \n",gst_percent);
     }
-    scanf("%c",&dum_key_1);
+   /* scanf("%c",&dum_key_1);
     printf("\n Press a key to go to main menu");
-    scanf("%c",&dum_key);
-    goto NEW;
+    scanf("%c",&dum_key);*/
+    goto FINISH;
   }
   
   if(option==2){
@@ -138,5 +138,5 @@ NEW:
   system("cls");
 }
 
-  return 0;
+FINISH:  return 0;
 }
