@@ -33,8 +33,8 @@ void test_zero(void)
 
 void test_five(void) 
 {
-  char test_case_2[5]="lamp";
-  TEST_ASSERT_EQUAL(5, product_five(test_case_2));
+  char test_case_1[5]="milk";
+  TEST_ASSERT_EQUAL(0, product_zero(test_case_1));
 }
 
 void test_twelve(void) 
