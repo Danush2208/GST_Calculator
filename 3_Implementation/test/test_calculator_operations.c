@@ -27,35 +27,29 @@ int main()
 
 void test_zero(void) 
 {
-  char* test_case="milk";
-  TEST_ASSERT_EQUAL(0, product_zero(test_case));
+  TEST_ASSERT_EQUAL(0, product_zero((char*)"milk"));
 }
 
 void test_five(void) 
 {
-  char* test_case="milk";
-  TEST_ASSERT_EQUAL(0, product_zero(test_case));
+  TEST_ASSERT_EQUAL(0, product_zero((char*)"milk")));
 }
 
 void test_twelve(void) 
 {
-  char* test_case="butter";
-  TEST_ASSERT_EQUAL(12, product_twelve(test_case));
+  TEST_ASSERT_EQUAL(12, product_twelve((char*)"butter")));
 }
 
 void test_eighteen(void) {
-  char* test_case="watches";
-  TEST_ASSERT_EQUAL(18, product_eighteen(test_case));
+  TEST_ASSERT_EQUAL(18, product_eighteen((char*)"watches")));
 }
 
 void test_twentyeight(void)
 {
-  char* test_case="malt";
-  TEST_ASSERT_EQUAL(28, product_twentyeight(test_case));
+  TEST_ASSERT_EQUAL(28, product_twentyeight((char*)"malt")));
 }
 
 void test_license(void)
 {
-  char* test_case="29ADMPK2640M1Z4";
-  TEST_ASSERT_EQUAL(0, license_cal(test_case));
+  TEST_ASSERT_EQUAL(0, license_cal((char*)"29ADMPK2640M1Z4")));
 }
