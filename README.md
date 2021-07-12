@@ -1,4 +1,4 @@
-# SDLC Activity based learning
+# MINI PROJECT -> GST CALCULATOR FOR INDIA
 
 Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Coverage
 ------|----------|-------|--------------|--------|

@@ -2,8 +2,8 @@
 #include "unity.h"
 
 void test_zero(void);
-/*void test_five(void);
-void test_twelve(void);
+void test_five(void);
+/*void test_twelve(void);
 void test_eighteen(void);
 void test_twentyeight(void);
 void test_license(void);*/
@@ -16,8 +16,8 @@ int main()
   UNITY_BEGIN();
 
   RUN_TEST(test_zero);
- /* RUN_TEST(test_five);
-  RUN_TEST(test_twelve);
+  RUN_TEST(test_five);
+  /*RUN_TEST(test_twelve);
   RUN_TEST(test_eighteen);
   RUN_TEST(test_twentyeight);
   RUN_TEST(test_license);*/
@@ -30,13 +30,13 @@ void test_zero(void)
   char test_case_1[5]="milk";
   TEST_ASSERT_EQUAL(0, product_zero(test_case_1));
 }
-/*
+
 void test_five(void) 
 {
   char test_case_2[7]="cloves";
   TEST_ASSERT_EQUAL(5, product_five(test_case_2));
 }
-
+/*
 void test_twelve(void) 
 {
   char test_case_3[7]="butter";
