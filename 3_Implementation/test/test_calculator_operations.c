@@ -1,7 +1,7 @@
 #include "fun.h"
 #include "unity.h"
 
-void test_zero(void);
+//void test_zero(void);
 void test_five(void);
 /*void test_twelve(void);
 void test_eighteen(void);
@@ -15,7 +15,7 @@ int main()
 {
   UNITY_BEGIN();
 
-  RUN_TEST(test_zero);
+  //RUN_TEST(test_zero);
   RUN_TEST(test_five);
   /*RUN_TEST(test_twelve);
   RUN_TEST(test_eighteen);
@@ -25,11 +25,11 @@ int main()
   return UNITY_END();
 }
 
-void test_zero(void) 
+/*void test_zero(void) 
 {
   char test_case_1[5]="milk";
   TEST_ASSERT_EQUAL(0, product_zero(test_case_1));
-}
+}*/
 
 void test_five(void) 
 {
