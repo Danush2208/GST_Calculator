@@ -19,8 +19,8 @@ int main()
   //RUN_TEST(test_five);
   RUN_TEST(test_twelve);
   RUN_TEST(test_eighteen);
-  //RUN_TEST(test_twentyeight);
-  //RUN_TEST(test_license);*/
+  RUN_TEST(test_twentyeight);
+  RUN_TEST(test_license);
 
   return UNITY_END();
 }
@@ -47,7 +47,7 @@ void test_eighteen(void) {
   char test_case_4[8]="watches";
   TEST_ASSERT_EQUAL(18, product_eighteen(test_case_4));
 }
-/*
+
 void test_twentyeight(void)
 {
   char test_case_5[5]="malt";
@@ -58,4 +58,4 @@ void test_license(void)
 {
   char test_case_6[16]="29ADMPK2640M1Z4";
   TEST_ASSERT_EQUAL(0, license_cal(test_case_6));
-}*/
+}
