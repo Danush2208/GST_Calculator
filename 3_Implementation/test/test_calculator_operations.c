@@ -5,8 +5,8 @@ void test_zero(void);
 //void test_five(void);
 void test_twelve(void);
 void test_eighteen(void);
-//void test_twentyeight(void);
-//void test_license(void);
+void test_twentyeight(void);
+void test_license(void);
 
 void setUp(){}
 void tearDown(){}
