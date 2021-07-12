@@ -1,7 +1,7 @@
 /**
  * @file start.c
  * @author S DANUSH VENKATESH (danushvenkat25@gmail.com)
- * @brief 
+ * @brief Main program
  * @version 0.1
  * @date 2021-06-30
  * 
@@ -23,7 +23,6 @@ NEW:
   scanf("%d",&option);
   
   if(option==1){
-    system("@cls||clear");
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
     gst_percent=product_zero(pdt);
@@ -53,7 +52,7 @@ NEW:
   }
   
   if(option==2){
-    system("@cls||clear");
+    
     percent_check=0;
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
@@ -114,7 +113,7 @@ NEW:
   }
   
   if(option==3){
-    system("@cls||clear");
+    
     printf("Enter the license number of the shop:");
     scanf("%s",lic);
     license_check=license_cal(lic);
@@ -131,7 +130,7 @@ NEW:
   }
   
   if(option==4)
-  system("@cls||clear");
+  
 
   return 0;
 }
