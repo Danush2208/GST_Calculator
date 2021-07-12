@@ -23,6 +23,7 @@ NEW:
   scanf("%d",&option);
   
   if(option==1){
+    system("cls");
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
     gst_percent=product_zero(pdt);
@@ -52,7 +53,7 @@ NEW:
   }
   
   if(option==2){
-    
+    system("cls");
     percent_check=0;
     printf("Enter the product you want to know the GST for:");
     scanf("%s",pdt);
@@ -113,7 +114,7 @@ NEW:
   }
   
   if(option==3){
-    
+    system("cls");
     printf("Enter the license number of the shop:");
     scanf("%s",lic);
     license_check=license_cal(lic);
@@ -130,7 +131,13 @@ NEW:
   }
   
   if(option==4)
-  
+{
+  system("cls");
+  printf("Thank you for using our product");
+  scanf("%c",&dum_key_1);
+  printf("\n Press a to exit the program");
+    scanf("%c",&dum_key);
+}
 
   return 0;
 }
