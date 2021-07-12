@@ -1,7 +1,7 @@
 /**
  * @file GST_Calculator.h
  * @author S DANUSH VENKATESH (danushvenkat25@gmail.com)
- * @brief 
+ * @brief all header files
  * @version 0.1
  * @date 2021-07-11
  * 

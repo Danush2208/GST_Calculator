@@ -1,3 +1,11 @@
+/**
+ * @file test_calculator_operations.c
+ * @author S DANUSH VENKATESH(danushvenkat25@gmail.com)
+ * @brief test file for unit testing
+ * @version 0.1
+ * @date 2021-07-12
+ * @copyright Copyright (c) 2021
+ */
 #include "fun.h"
 #include "unity.h"
 

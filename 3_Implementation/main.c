@@ -4,9 +4,7 @@
  * @brief Main program
  * @version 0.1
  * @date 2021-06-30
- * 
  * @copyright Copyright (c) 2021
- * 
  */
 
 #include <stdio.h>
@@ -136,7 +134,8 @@ NEW:
   printf("Thank you for using our product");
   scanf("%c",&dum_key_1);
   printf("\n Press a to exit the program");
-    scanf("%c",&dum_key);
+  scanf("%c",&dum_key);
+  system("cls");
 }
 
   return 0;
