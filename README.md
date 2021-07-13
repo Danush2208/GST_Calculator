@@ -5,7 +5,7 @@ This application is specially designed for those people
 <br><br>
 Build | Code Quality | Unity | [Git Inspector](using github.io option) | Code Coverage
 ------|----------|-------|--------------|--------|
-[![C/C++ CI - Build Status](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp.yml) |  [![Code Quality - Static Code - Cppcheck](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml) <br> [![Code grade](https://www.code-inspector.com/project/24797/status/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) <br> [![Code Score](https://www.code-inspector.com/project/24797/score/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) [![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/Danush2208/GST_Calculator/actions/workflows/codequality_dynamic.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/codequality_dynamic.yml)|[![Unit Testing - Unity](https://github.com/Danush2208/GST_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/Danush2208/GST_Calculator/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/git_inspector.yml) | [![CI-Coverage](https://github.com/Danush2208/GST_Calculator/actions/workflows/gcov.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/gcov.yml)
+[![C/C++ CI - Build Status](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/c-cpp.yml) |  [![Code Quality - Static Code - Cppcheck](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/cppcheck.yml) <br> [![Code grade](https://www.code-inspector.com/project/24797/status/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) <br> [![Code Score](https://www.code-inspector.com/project/24797/score/svg)](https://frontend.code-inspector.com/public/project/24797/GST_Calculator/dashboard) |[![Unit Testing - Unity](https://github.com/Danush2208/GST_Calculator/actions/workflows/unity.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/unity.yml) |[![Contribution Check - Git Inspector](https://github.com/Danush2208/GST_Calculator/actions/workflows/git_inspector.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/git_inspector.yml) | [![CI-Coverage](https://github.com/Danush2208/GST_Calculator/actions/workflows/gcov.yml/badge.svg)](https://github.com/Danush2208/GST_Calculator/actions/workflows/gcov.yml)
 
 ## Folder Structure
 Folder             | Description
@@ -30,7 +30,7 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 
 ## Project demo
 
-![Project Demo](https://github.com/Danush2208/GST_Calculator/blob/22e518c0ccfcde8cf6d950337233539d21ff44f1/5_Images_&_Videos/Output_video.mp4)
+![Project Demo](https://github.com/Danush2208/GST_Calculator/blob/7991ddca53a2555a7b31ba759703cff70ae6bfbb/5_Images_&_Videos/Output_video.gif)
 
 ## Challenges Faced and How Was It Overcome
 | No. | Challenge | Solution
