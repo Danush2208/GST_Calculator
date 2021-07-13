@@ -28,6 +28,9 @@ SF Id. |  Name   |    Features    | Issuess Raised |Issues Resolved|No Test Case
 |F_2| To confirm the GST assigned to the product |
 |F_3| To check the GST license number |
 
+## Project demo
+
+![Project Demo](https://github.com/Danush2208/GST_Calculator/blob/22e518c0ccfcde8cf6d950337233539d21ff44f1/5_Images_&_Videos/Output_video.mp4)
 
 ## Challenges Faced and How Was It Overcome
 | No. | Challenge | Solution
