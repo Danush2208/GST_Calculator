@@ -24,6 +24,6 @@ int product_twentyeight(char pdt[]){
         }
     }
     //fclose(fp);
-    return 1;
+    return 28;
 }
 

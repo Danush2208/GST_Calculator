@@ -26,6 +26,6 @@ int product_zero(char pdt[]){
         }
     }
    // fclose(fp);
-    return 1;
+    return 0;
 }
 

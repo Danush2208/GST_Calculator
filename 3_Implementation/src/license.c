@@ -25,6 +25,6 @@ int license_cal(char lic[]){
         }
     }
     //fclose(fp);
-    return 1;
+    return 0;
 }
 

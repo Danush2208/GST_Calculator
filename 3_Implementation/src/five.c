@@ -25,6 +25,6 @@ int product_five(char pdt[]){
         }
     }
     //fclose(fp);
-    return 1;
+    return 5;
 }
 
