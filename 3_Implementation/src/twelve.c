@@ -25,7 +25,7 @@ int product_twelve(char pdt[]){
            }
         }
     }
-    fclose(fp);
+    //fclose(fp);
     return 1;
 }
 

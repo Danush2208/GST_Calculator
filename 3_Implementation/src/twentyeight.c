@@ -23,7 +23,7 @@ int product_twentyeight(char pdt[]){
            }
         }
     }
-    fclose(fp);
+    //fclose(fp);
     return 1;
 }
 
