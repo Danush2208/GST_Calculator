@@ -13,7 +13,7 @@ int product_five(char pdt[]){
     if(fp){ 
     while(!feof(fp))
         {
-          char dum_pdt[20];
+          char dum_pdt[50];
           int len;
           len=strlen(pdt)+1;
           fgets(dum_pdt,len,fp);

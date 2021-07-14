@@ -14,7 +14,7 @@ int license_cal(char lic[]){
     if(fp){ 
     while(!feof(fp))
         {
-          char dum_lic[20];
+          char dum_lic[50];
           int len;
           len=strlen(lic)+1;
           fgets(dum_lic,len,fp);
