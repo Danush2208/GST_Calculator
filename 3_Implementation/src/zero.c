@@ -17,12 +17,12 @@ int product_zero(char pdt[]){
           int len;
           len=strlen(pdt)+1;
           char* dum_pdt;
-          dum_pdt = (char*)malloc (len * sizeof (char));
+          dum_pdt = (char*)malloc(len * sizeof (char));
           fgets(dum_pdt,len,fp);
            if(strcmp(dum_pdt,pdt)==0){
                return 0;
            }
-          free(dum_pdt);
+          dum_pdt=NULL;
         }
     }
     fclose(fp);
