@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include<stdlib.h>
 /**
  * @brief File for 28% GST
  * 
@@ -13,9 +13,10 @@ int product_twentyeight(char pdt[]){
     if(fp){ 
     while(!feof(fp))
         {
-          char dum_pdt[50];
           int len;
           len=strlen(pdt)+1;
+          char* dum_pdt;
+          dum_pdt = (char*)malloc (len * sizeof (char));
           fgets(dum_pdt,len,fp);
            if(strcmp(dum_pdt,pdt)==0){
                return 28;
