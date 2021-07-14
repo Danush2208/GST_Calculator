@@ -28,6 +28,6 @@ int product_zero(char pdt[]){
         dum_pdt=NULL;
     }
     //fclose(fp);
-    return 1;
+    return 0;
 }
 
