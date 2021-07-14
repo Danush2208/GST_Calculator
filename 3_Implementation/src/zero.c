@@ -22,7 +22,7 @@ int product_zero(char pdt[]){
            if(strcmp(dum_pdt,pdt)==0){
                return 0;
            }
-           free(dum_pdt);
+          malloc(dum_pdt);
         }
     }
     fclose(fp);
