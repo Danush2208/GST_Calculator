@@ -22,10 +22,10 @@ int product_zero(char pdt[]){
            if(strcmp(dum_pdt,pdt)==0){
                return 0;
            }
-          dum_pdt=NULL;
         }
     }
-   // fclose(fp);
+    fp=NULL;
+    fclose(fp);
     return 0;
 }
 
