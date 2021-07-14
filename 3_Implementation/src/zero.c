@@ -24,8 +24,7 @@ int product_zero(char pdt[]){
            }
         }
     }
-    fp=NULL;
-    fclose(fp);
-    return 0;
+    //fclose(fp);
+    return 1;
 }
 
