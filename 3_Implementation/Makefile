@@ -47,10 +47,9 @@ clean :
 valgrind :
 	valgrind $(call FixPath,$(TEST_OUTPUT))
 
-coverage:
-	gcc -fprofile-arcs -ftest-coverage $(TEST_SRC) $(INC_TEST) -o $(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	$(call FixPath,$(BUILD_DIR)/$(TEST_PROJ_NAME).$(EXEC))
-	gcov -a $(TEST_SRC)
+coverage:$(BUILD_DIR)
+	g++ -fprofile-arcs -ftest-coverage -fPIC -O0 $(SRC) -I$(INC) -o $(OUTPUT)
+	./$(OUTPUT)
  
 test:$(BUILD_DIR)
 	gcc $(TEST_SRC) $(INC_TEST) -o $(TEST_OUTPUT)
