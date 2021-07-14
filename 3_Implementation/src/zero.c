@@ -23,6 +23,7 @@ int product_zero(char pdt[]){
                return 0;
            }
         }
+        dum_pdt=NULL;
     }
     //fclose(fp);
     return 1;
